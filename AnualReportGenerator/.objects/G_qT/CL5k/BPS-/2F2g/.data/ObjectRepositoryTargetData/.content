@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rGl6_2AchEippd9MY9Q83g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/home" CVScreenId="397444cd-d686-4e8f-8574-e4d462715b5c" DesignTimeRectangle="210, 677, 300, 68" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='dashmenu' tag='BUTTON' visibleinnertext=' Work Items' /&gt;" Guid="cc21ad0a-122e-4e42-914a-77d2059b0331" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="397444cd-d686-4e8f-8574-e4d462715b5c" DesignTimeRectangle="210, 594, 300, 68" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='dashmenu' tag='BUTTON' visibleinnertext=' User options' /&gt;" Guid="5c7a6283-1e29-4044-931a-dd49be4c4750" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d3fa276e39f62b8724e66067f7f14bf.png" xmlns="">01LbnjUdwGEOf1ThW5BvcjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
