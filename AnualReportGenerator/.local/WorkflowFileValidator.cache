@@ -1,0 +1,14 @@
+Framework/SetTransactionStatus.xaml|638950988420000000
+Framework/Process.xaml|638950988420000000
+Framework/KillAllProcesses.xaml|638980272959428305
+Framework/RetryCurrentTransaction.xaml|638950988420000000
+Framework/TakeScreenshot.xaml|638950988420000000
+Framework/InitAllSettings.xaml|638980204110782994
+Framework/InitAllApplications.xaml|638980182480303430
+Framework/CloseAllApplications.xaml|638980241270344723
+Framework/GetTransactionData.xaml|638950988420000000
+Xamls/NavigateHome.xaml|638984069277822099
+Xamls/Dispatcher.xaml|638984069273573056
+Main.xaml|638984069266599682
+Xamls/LoginToAcme.xaml|638980395861246070
+Xamls/GetVendorTaxID.xaml|638984157557425979

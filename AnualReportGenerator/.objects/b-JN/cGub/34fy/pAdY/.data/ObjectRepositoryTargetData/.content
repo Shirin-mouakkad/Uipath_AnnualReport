@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xTlAn8n01kmKR1R8BkM5Vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/108011322" CVScreenId="4a47ac5d-613d-4705-9531-c8a90a21f01f" DesignTimeRectangle="105, 326, 1710, 74" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' visibleinnertext='Work Items - Work Item Details' /&gt;" Guid="5ca30757-7a17-4178-af06-66994c7336ff" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4a47ac5d-613d-4705-9531-c8a90a21f01f" DesignTimeRectangle="82, 191, 243, 75" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' visibleinnertext='ACME System 1' /&gt;" Guid="fbcc26ab-24c0-435e-9b9a-5e40aa3708a2" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="159060c2b926240030d4656ab307319d.png" xmlns="">0irTAx2_DWECaqjR5WpIG9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
