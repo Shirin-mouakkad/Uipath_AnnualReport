@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8jWrkRfIrEedftN9uSUmDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" CVScreenId="c29a1f90-b397-4107-a06a-112211a85218" DesignTimeRectangle="210, 624, 727, 51" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='vendorTaxID' tag='INPUT' /&gt;" Guid="25b2776e-b1c7-44e6-8b90-263a11307353" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Download Monthly Report' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c29a1f90-b397-4107-a06a-112211a85218" DesignTimeRectangle="210, 587, 139, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' visibleinnertext='Vendor TaxID:' /&gt;" Guid="7e58b0e7-4502-4e49-bbab-187472dca15f" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="07015be251f2bfb2c4630740def40a81.png" xmlns="">0ZkADoSi50kGZ2wG3795WUw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

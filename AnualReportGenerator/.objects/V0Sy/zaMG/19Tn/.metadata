@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge uipath how to copy one cvs sheet to exce",
+  "Type": "Screen",
+  "Id": "19TnR13m9EKt2IMn592m5g",
+  "Reference": "OgJq5CcpbEqPf2GjETFlbw/19TnR13m9EKt2IMn592m5g",
+  "ParentRef": "OgJq5CcpbEqPf2GjETFlbw/zaMGxmrfvU675tyUKE_c_w",
+  "Created": "2025-11-12T11:08:39.989738Z",
+  "Updated": "2025-11-12T11:08:39.989738Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

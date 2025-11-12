@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="c-94-uUwEUGgbwK52A51Sw" Reference="OgJq5CcpbEqPf2GjETFlbw/vQA6io4fsEmfq9tMpUK-tQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="newtab" CVScreenId="07ab81fa-14e2-4fd6-b4eb-3e5a209bf0a7" CvTextArea="203, 81, 263, 19" CvTextArgument="Search or enter web address" CvType="Text" DesignTimeRectangle="11, 62, 1920, 60" ElementVisibilityArgument="Interactive" Guid="2dffc126-6ff0-44d2-a6d1-7c235455227c" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='New tab - Work - Microsoft​ Edge' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ccf821d10512cca08d93bcf544af734b.png" xmlns="">0vemWjoDtH0OzFk2xu8G9cw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
