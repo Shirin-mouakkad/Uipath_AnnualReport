@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="or1aVJMoXEWypVGiXULZuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="f8b396f8-e372-4281-a137-f0d1758d8ae3" DesignTimeRectangle="105, 257, 1710, 74" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' visibleinnertext='Reports - Upload Yearly Report' /&gt;" Guid="29ec287f-4b30-48f6-8721-407c68ab33bd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Upload Yearly Report' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f8b396f8-e372-4281-a137-f0d1758d8ae3" DesignTimeRectangle="82, 122, 243, 75" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' visibleinnertext='ACME System 1' /&gt;" Guid="1e01efe3-b876-44d3-bf21-c6f5cc2c1569" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee186dffb0f68de0a5eb4021c0d7170c.png" xmlns="">0PbKVUhT0okW26X3FuaSsiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

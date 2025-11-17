@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZlslVZvX20ysebDJemiF1g" Reference="OgJq5CcpbEqPf2GjETFlbw/kVlWDFFyRUanaW6RJ8-gbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/108011322" CVScreenId="4ca7a0d0-807d-4be8-8418-e912be56c1f3" DesignTimeRectangle="659, 153, 624, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Work Item was updated accordingly' role='text' text='Work Item was updated accordingly' /&gt;" Guid="f02eedc1-3ba3-4c41-9319-c8dd3b6acac8" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Work - Microsoft​ Edge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fb964fa8fc51c1bd516a89c3eed87940.png" xmlns="">0w3yuUdTOhUWNOUCWktjQBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

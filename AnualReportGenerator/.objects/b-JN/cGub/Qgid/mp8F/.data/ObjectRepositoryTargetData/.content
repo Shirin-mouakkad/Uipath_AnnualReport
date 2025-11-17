@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="SkEtuA-ajk28b46AwUchMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="tdLCuuLGNUyI_rfOHoTFOw" Reference="OgJq5CcpbEqPf2GjETFlbw/mp8FdyPHRE-9Kbk6uersHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" CVScreenId="2873c0af-d3be-483e-8d53-f9f319026d5b" DesignTimeRectangle="210, 678, 330, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='button' tag='BUTTON' data-id='reportMonth' /&gt;" Guid="09b5f3f3-cb9b-43d5-9bb7-4b4be47d76c2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Download Monthly Report' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="2873c0af-d3be-483e-8d53-f9f319026d5b" DesignTimeRectangle="210, 641, 69, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Month:' tag='LABEL' visibleinnertext='Month:' /&gt;" Guid="7bc1a24a-6ed1-478e-8507-9ca14332a736" SearchSteps="Selector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="000af6c4c43a76e7eabf1fff740b8a7a.png" xmlns="">0FRieYtnAIECKdpk8uU8TlQ</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="000af6c4c43a76e7eabf1fff740b8a7a.png" xmlns="">0JDzJXjwzDUaPnylQ224YMA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">SelectItem</x:String>
   </ObjectRepositoryTargetData.Data>

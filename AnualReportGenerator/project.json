@@ -83,6 +83,20 @@
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "484070c9-542f-4575-80f3-79bf26af7d23",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UploadReportTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8d03f5d2-854e-4111-87ac-b006e9914f85",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Performer\\UpdateWorkItemStatusTestCase.xaml"
       }
     ],
     "saveToCloud": false

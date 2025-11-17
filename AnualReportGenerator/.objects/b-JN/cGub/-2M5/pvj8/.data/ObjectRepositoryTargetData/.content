@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="61V3V2TSqEKWww0HLywwaw" Reference="OgJq5CcpbEqPf2GjETFlbw/pvj8ceGaWUeiM4ugKOrLvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="781c155e-7d08-4b5b-875e-6066f49ef09b" DesignTimeRectangle="210, 642, 300, 68" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='dashmenu' tag='BUTTON' visibleinnertext=' Reports' /&gt;" Guid="c9e71b19-72ab-4d08-8f6d-993fa3ea28e4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="781c155e-7d08-4b5b-875e-6066f49ef09b" DesignTimeRectangle="210, 559, 300, 68" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='dashmenu' tag='BUTTON' visibleinnertext=' Internal Invoices' /&gt;" Guid="f2cc2872-b867-4dab-8844-e9806381276e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="26a4df62df17d4b1f34c5c0e7b2565b5.png" xmlns="">0dzx1sLTqvEiqxVVi__BOWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

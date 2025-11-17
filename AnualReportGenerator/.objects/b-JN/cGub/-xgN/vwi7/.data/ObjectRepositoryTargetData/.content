@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="VYx0geFo2ke3C1VBYrfvdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="kGauo5DXVEe0gM2DBVJkWw" Reference="OgJq5CcpbEqPf2GjETFlbw/vwi7wSKXuUGja1y-14EQxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/home" CVScreenId="68d19e54-cc60-4fce-a5b3-879746c8b3e9" DesignTimeRectangle="17, 122, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='dashmenu' tag='A' visibleinnertext='Download Monthly Report' /&gt;" Guid="13b70a7f-3971-4233-8a56-7720de5b8130" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
@@ -7,7 +7,7 @@
           <Target CVScreenId="68d19e54-cc60-4fce-a5b3-879746c8b3e9" DesignTimeRectangle="17, 122, 0, 0" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='dashmenu' tag='A' visibleinnertext='Upload Yearly Report' /&gt;" Guid="5dfcf28c-b017-474c-92fc-2dd241ead109" SearchSteps="Selector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="7de2bbe3925511199f41466a6f93e827.png" xmlns="">0o08vyJLN4k63zS-TXzjh-A</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="7de2bbe3925511199f41466a6f93e827.png" xmlns="">032BEvh0xR0WmfOMXjvfMRg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

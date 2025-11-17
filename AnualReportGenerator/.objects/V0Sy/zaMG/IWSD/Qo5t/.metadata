@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Close webpage",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Qo5tjaJ080WysWMcBWvdcA",
+  "Reference": "OgJq5CcpbEqPf2GjETFlbw/Qo5tjaJ080WysWMcBWvdcA",
+  "ParentRef": "OgJq5CcpbEqPf2GjETFlbw/IWSDpBOyrUuyfW6ruJGNIQ",
+  "Created": "2025-11-14T10:57:34.6506365Z",
+  "Updated": "2025-11-14T10:57:34.6506365Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

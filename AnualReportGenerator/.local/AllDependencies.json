@@ -21392,9 +21392,9 @@
     "restore": {
       "projectUniqueName": "AnualReportGenerator",
       "projectName": "AnualReportGenerator",
-      "projectPath": "C:\\Users\\ShirinMouakkad\\Documents\\UiPath\\AnualReportGenerator\\.local",
+      "projectPath": "C:\\Users\\ShirinMouakkad\\Documents\\GitHub\\Uipath_AnnualReport\\AnualReportGenerator\\.local",
       "packagesPath": "C:\\Users\\ShirinMouakkad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ShirinMouakkad\\Documents\\UiPath\\AnualReportGenerator\\.local",
+      "outputPath": "C:\\Users\\ShirinMouakkad\\Documents\\GitHub\\Uipath_AnnualReport\\AnualReportGenerator\\.local",
       "UsingMicrosoftNETSdk": false,
       "restoreAuditProperties": {
         "enableAudit": "False"

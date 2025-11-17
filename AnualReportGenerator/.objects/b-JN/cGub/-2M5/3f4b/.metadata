@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Reports - Upload Yearly…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "3f4b7f3EyEeyWUc5GWEJAA",
+  "Reference": "OgJq5CcpbEqPf2GjETFlbw/3f4b7f3EyEeyWUc5GWEJAA",
+  "ParentRef": "OgJq5CcpbEqPf2GjETFlbw/-2M5P0tJSkmjLIyInImLhQ",
+  "Created": "2025-11-12T15:54:58.571717Z",
+  "Updated": "2025-11-12T15:54:58.571717Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

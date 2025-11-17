@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W57FC6xHJ0WR5hVbDthIKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="6e856b40-cca3-4972-91cc-70cfe83341e2" DesignTimeRectangle="210, 624, 727, 51" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='vendorTaxID' tag='INPUT' name='vendorTaxID' /&gt;" Guid="0079e8fd-a565-47a0-9a69-27a4e934f3ab" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Upload Yearly Report' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6e856b40-cca3-4972-91cc-70cfe83341e2" DesignTimeRectangle="210, 587, 139, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' visibleinnertext='Vendor TaxID:' /&gt;" Guid="156a36a9-bf75-4cef-9037-063c07d3c3b5" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5b528e6e9581a27100e944d491688035.png" xmlns="">0KgYlBDugnUieQpsKwewyIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EK4kdvvoskqN_A3HNalkWA" Reference="OgJq5CcpbEqPf2GjETFlbw/my5338cvOES2fNJhBmArJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/108011322" CVScreenId="257a3287-cbb7-4a42-8c6b-067c0b68bc00" DesignTimeRectangle="861, 697, 234, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Update Work Item' tag='BUTTON' visibleinnertext=' Update Work Item' /&gt;" Guid="6b81895f-a5c6-4d6b-9322-1f101dba3440" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="257a3287-cbb7-4a42-8c6b-067c0b68bc00" DesignTimeRectangle="211, 389, 1498, 61" ElementType="Text" FullSelectorArgument="&lt;webctrl class='panel-heading' tag='DIV' aaname='Generate Yearly Report for Vendor' /&gt;" Guid="47992a35-fb1d-4241-a154-dd1d6220f230" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d3e02dca572c80c2a54ed0f74913b3be.png" xmlns="">0X0zaXaxb10mQbi2PKnCxcg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

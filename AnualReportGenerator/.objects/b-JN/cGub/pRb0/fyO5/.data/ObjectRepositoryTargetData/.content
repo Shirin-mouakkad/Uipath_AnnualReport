@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZjpWFmHZ50OHsPO3akzESg" Reference="OgJq5CcpbEqPf2GjETFlbw/fyO5M9zw8Eeug8UE2r8w4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/update/108011322" CVScreenId="79b03884-60a1-499b-8812-98957d72d457" DesignTimeRectangle="151, 534, 1618, 80" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='newComment' tag='TEXTAREA' name='newComment' type='text' /&gt;" Guid="baa45d91-4c07-4ca1-957b-85c2e00ebe45" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="79b03884-60a1-499b-8812-98957d72d457" DesignTimeRectangle="151, 496, 162, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' visibleinnertext='Add Comments:' innertext='Add Comments:' /&gt;" Guid="75acedb5-71a1-45ed-86a9-868c6f6b63d4" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc37576493a7145afa4f8b2fceeb845c.png" xmlns="">0i4DHrcSQKkqZvs9T5mzcRA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

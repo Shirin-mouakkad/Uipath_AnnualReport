@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SKmuknAbzEKk7Zya_IPrUw" Reference="OgJq5CcpbEqPf2GjETFlbw/BqmNcG1sA0K_57VUAfXnfQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="720a17b1-94a0-49f1-ab8a-52fdc46a994c" DesignTimeRectangle="287, 607, 307, 25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='File name:' cls='ComboBoxEx32' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd aaname='File name:' cls='Edit' /&gt;" Guid="c0ecf159-0275-444a-97e6-494b38331d6d" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="720a17b1-94a0-49f1-ab8a-52fdc46a994c" DesignTimeRectangle="196, 606, 79, 25" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' aaname='File name:' /&gt;" Guid="5f06dbd0-a4b3-4cf3-8d8b-be55f599ba5c" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="708700a1f3bb489c8e8557f1dc04f8d5.png" xmlns="">0iVvcHzuGmkSMYT6EEAf2rw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
