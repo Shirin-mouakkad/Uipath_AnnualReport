@@ -2,6 +2,7 @@
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Transaction item to be processed." Name="in_TransactionItem" Type="InArgument(ui:QueueItem)" />
     <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
+    <x:Property Name="out_ConfirmationId" Type="OutArgument(x:String)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
@@ -99,7 +100,6 @@
       <Variable x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="The work item WIID" Name="str_WIID" />
       <Variable x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="the url link for the work item details page" Name="str_Url" />
       <Variable x:TypeArguments="x:String" Name="str_TaxId" />
-      <Variable x:TypeArguments="x:String" Name="str_ConfirmationId" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -209,7 +209,7 @@
         <InArgument x:TypeArguments="x:String" x:Key="in_FileName">[string.Format("Report-{0}-{1}.xlsx",in_Config("ReportYear").ToString,str_TaxId)]</InArgument>
         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_TaxId">[str_TaxId]</InArgument>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_ConfirmationId">[str_ConfirmationId]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_ConfirmationId">[out_ConfirmationId]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -223,7 +223,7 @@
         <InArgument x:TypeArguments="x:String" x:Key="in_WIID">[str_WIID]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_Url">[str_Url]</InArgument>
         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_ConfirmationId">[str_ConfirmationId]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ConfirmationId">[out_ConfirmationId]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">

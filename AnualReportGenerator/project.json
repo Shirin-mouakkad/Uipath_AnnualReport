@@ -5,6 +5,9 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.3.0-preview]",
+    "UiPath.GSuite.Activities": "[3.5.10]",
+    "UiPath.Mail.Activities": "[2.5.10]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.5.10]",
     "UiPath.System.Activities": "[25.10.2]",
     "UiPath.Testing.Activities": "[25.10.0]",
     "UiPath.UIAutomation.Activities": "[25.10.16]"
@@ -96,7 +99,7 @@
         "testCaseId": "8d03f5d2-854e-4111-87ac-b006e9914f85",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Performer\\UpdateWorkItemStatusTestCase.xaml"
+        "fileName": "Tests\\UpdateWorkItemStatusTestCase.xaml"
       }
     ],
     "saveToCloud": false
