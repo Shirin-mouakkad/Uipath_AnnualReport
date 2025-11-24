@@ -232,14 +232,14 @@
       <AssemblyReference>System.Net.Sockets</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This xaml will try to login to acme website using the credentials stored in the orchestrator incase we are not already logged in.&#xA;it will has one of the following three status:&#xA;- throw business role exception in case the Credentials are wrong.&#xA;-  System exception if the website doesn't load.&#xA;- success if we log in&#xA;Post condition: Logged in to the Acme website" DisplayName="LoginToAcme" sap:VirtualizedContainerService.HintSize="2419.3333333333335,2814.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This xaml will try to login to acme website using the credentials stored in the orchestrator incase we are not already logged in.&#xA;it will has one of the following three status:&#xA;- throw business role exception in case the Credentials are wrong.&#xA;-  System exception if the website doesn't load.&#xA;- success if we log in&#xA;Post condition: Logged in to the Acme website" DisplayName="LoginToAcme" sap:VirtualizedContainerService.HintSize="1284,709.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2419.3333333333335,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;LoginToAcme xaml started&quot;]">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1284,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;LoginToAcme xaml started&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -247,13 +247,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Log In" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="2419.3333333333335,2609.3333333333335" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" OutUiElement="[in_Config(&quot;WebPage&quot;)]" ScopeGuid="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Log In" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1284,504" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" OutUiElement="[in_Config(&quot;WebPage&quot;)]" ScopeGuid="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="2385.3333333333335,2358" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1250,252.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Default="False" Name="bol_ElementFound" />
               <Variable x:TypeArguments="x:String" Name="str_Pass" />
@@ -265,21 +265,21 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Pick sap2010:Annotation.AnnotationText="this pick will check on which page we are when open the website.&#xA;if we are in login page then it will login with credentials.&#xA;if we are in dashboard it will do nothing&#xA;if the website is not loading it will throw an exception" DisplayName="Pick before login" sap:VirtualizedContainerService.HintSize="2351.3333333333335,2295.3333333333335" sap2010:WorkflowViewState.IdRef="Pick_1">
+            <Pick sap2010:Annotation.AnnotationText="this pick will check on which page we are when open the website.&#xA;if we are in login page then it will login with credentials.&#xA;if we are in dashboard it will do nothing&#xA;if the website is not loading it will throw an exception" DisplayName="Pick before login" sap:VirtualizedContainerService.HintSize="1216,190" sap2010:WorkflowViewState.IdRef="Pick_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <PickBranch DisplayName="PickBranch login page" sap:VirtualizedContainerService.HintSize="1509.3333333333333,2145.3333333333335" sap2010:WorkflowViewState.IdRef="PickBranch_1">
+              <PickBranch DisplayName="PickBranch login page" sap:VirtualizedContainerService.HintSize="374,40" sap2010:WorkflowViewState.IdRef="PickBranch_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <PickBranch.Trigger>
-                  <uix:NCheckState DelayBefore="5" DisplayName="Check App State Login" Exists="[bol_ElementFound]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1418.6666666666667,25.333333333333332" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Timeout="10" Version="V5">
+                  <uix:NCheckState DelayBefore="5" DisplayName="Check App State Login" Exists="[bol_ElementFound]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Timeout="10" Version="V5">
                     <uix:NCheckState.IfExists>
                       <Sequence sap2010:Annotation.AnnotationText="assign to the bol_ElementFound true&#xA;" DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,70" sap2010:WorkflowViewState.IdRef="Sequence_9">
                         <sap:WorkflowViewStateService.ViewState>
@@ -318,13 +318,13 @@
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NCheckState>
                 </PickBranch.Trigger>
-                <Sequence sap:VirtualizedContainerService.HintSize="1418.6666666666667,1881.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence sap:VirtualizedContainerService.HintSize="450,1007.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into Username" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1384.6666666666667,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Text="[in_Config(&quot;AcmeLoginCredential_UserName&quot;).ToString]" Version="V5">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into Username" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Text="[in_Config(&quot;AcmeLoginCredential_UserName&quot;).ToString]" Version="V5">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="7c136e21-a438-487e-aa06-bd6ab58fcdac" ContentHash="ZBsYgWZccE6mgzClh3I0kQ" DesignTimeRectangle="210, 745, 727, 51" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' name='password' /&gt;" Guid="e650ac61-191b-4ba2-9b1d-6feed19427f8" InformativeScreenshot="3be05f8f2aa4139dafbb6baa833a00e7.png" Reference="OgJq5CcpbEqPf2GjETFlbw/MwwZnzbshkKMoeSF9jQ63Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -345,7 +345,7 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into Username" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1384.6666666666667,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="DebuggerApi" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" SecureText="[DirectCast(in_Config(&quot;AcmeLoginCredential_Password&quot;), System.Security.SecureString)]" Version="V5">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into Username" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="DebuggerApi" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" SecureText="[DirectCast(in_Config(&quot;AcmeLoginCredential_Password&quot;), System.Security.SecureString)]" Version="V5">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="7c136e21-a438-487e-aa06-bd6ab58fcdac" ContentHash="ZBsYgWZccE6mgzClh3I0kQ" DesignTimeRectangle="210, 745, 727, 51" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' name='password' /&gt;" Guid="e650ac61-191b-4ba2-9b1d-6feed19427f8" InformativeScreenshot="3be05f8f2aa4139dafbb6baa833a00e7.png" Reference="OgJq5CcpbEqPf2GjETFlbw/MwwZnzbshkKMoeSF9jQ63Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -366,7 +366,7 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1384.6666666666667,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="d77c3dff-b8ce-4b60-bed0-632b8ac5b5ef" DesignTimeRectangle="210, 881, 89, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' visibleinnertext='Login' /&gt;" Guid="c0972557-490f-4502-86c9-34fcaebd0eda" InformativeScreenshot="64247c74ab92b30ed037440aa6495023.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -377,158 +377,15 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <Pick sap2010:Annotation.AnnotationText="this pick will check if the login successfull was.&#xA;if we are in login page then the credential is wrong.&#xA;if we are in dashboard then success&#xA;if the website is not loading it will throw an exception" DisplayName="Pick After login" sap:VirtualizedContainerService.HintSize="1384.6666666666667,1042" sap2010:WorkflowViewState.IdRef="Pick_2">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <PickBranch DisplayName="PickBranch login page" sap:VirtualizedContainerService.HintSize="542.6666666666666,892" sap2010:WorkflowViewState.IdRef="PickBranch_4">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <PickBranch.Trigger>
-                        <uix:NCheckState DelayBefore="5" DisplayName="Check App State Login" Exists="[bol_ElementFound]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,330.6666666666667" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Timeout="2" Version="V5">
-                          <uix:NCheckState.IfExists>
-                            <Sequence sap2010:Annotation.AnnotationText="assign to the bol_ElementFound true&#xA;" DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,70" sap2010:WorkflowViewState.IdRef="Sequence_20">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </Sequence>
-                          </uix:NCheckState.IfExists>
-                          <uix:NCheckState.IfNotExists>
-                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_21">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </Sequence>
-                          </uix:NCheckState.IfNotExists>
-                          <uix:NCheckState.Target>
-                            <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/home" CVScreenId="55a30c3f-8744-4736-99ac-e228932f0345" ContentHash="sZtMtJvab06BfdCr1PQiDw" DesignTimeRectangle="105, 257, 1710, 74" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' visibleinnertext='Login' /&gt;" Guid="e103cae5-23da-40db-ac52-e3360dea76bb" InformativeScreenshot="94550cad8c7da08792757af3b5660a24.png" Reference="OgJq5CcpbEqPf2GjETFlbw/2tri2fEfcE--GMvFHPt8HA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-                              <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                  <uix:Target CVScreenId="55a30c3f-8744-4736-99ac-e228932f0345" DesignTimeRectangle="82, 122, 243, 75" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' visibleinnertext='ACME System 1' /&gt;" Guid="d76e2eae-a549-4ed9-8342-11c6afc4af1b" SearchSteps="Selector" />
-                                </scg:List>
-                              </uix:TargetAnchorable.Anchors>
-                            </uix:TargetAnchorable>
-                          </uix:NCheckState.Target>
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                        </uix:NCheckState>
-                      </PickBranch.Trigger>
-                      <Sequence sap:VirtualizedContainerService.HintSize="452,357.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_29">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SendReportToSME - Invoke Workflow File (Performer\SendReportToSME.xaml)" sap:VirtualizedContainerService.HintSize="416,177.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Performer\SendReportToSME.xaml">
-                          <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="in_FilePath" />
-                            <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
-                          </ui:InvokeWorkflowFile.Arguments>
-                        </ui:InvokeWorkflowFile>
-                        <Throw Exception="[new SystemException(&quot;Login credential is wrong&quot;)]" sap:VirtualizedContainerService.HintSize="416,117.33333333333333" sap2010:WorkflowViewState.IdRef="Throw_6" />
-                      </Sequence>
-                    </PickBranch>
-                    <PickBranch DisplayName="PickBranch dashboard page" sap:VirtualizedContainerService.HintSize="374,892" sap2010:WorkflowViewState.IdRef="PickBranch_5">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <PickBranch.Trigger>
-                        <uix:NCheckState DisplayName="Check App State 'Dashboard'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,413.3333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_9" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Version="V5">
-                          <uix:NCheckState.IfExists>
-                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_25">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </Sequence>
-                          </uix:NCheckState.IfExists>
-                          <uix:NCheckState.IfNotExists>
-                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_26">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </Sequence>
-                          </uix:NCheckState.IfNotExists>
-                          <uix:NCheckState.Target>
-                            <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/home" CVScreenId="6a472be5-6f35-4cb2-b710-3820070d0744" ContentHash="J9b-jYrOVk2ausbJWTAh9g" DesignTimeRectangle="105, 257, 1710, 74" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' visibleinnertext='Dashboard' /&gt;" Guid="e5e4a815-a69b-411c-97ee-ae4207577c6f" InformativeScreenshot="39898a82dfc147728629d12ae951805e.png" Reference="OgJq5CcpbEqPf2GjETFlbw/DSHB4c6Sh0y_8M96frsn8g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-                              <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                  <uix:Target CVScreenId="6a472be5-6f35-4cb2-b710-3820070d0744" DesignTimeRectangle="82, 122, 243, 75" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' visibleinnertext='ACME System 1' /&gt;" Guid="b6786e52-6f25-44b1-a95d-10afacd48e72" SearchSteps="Selector" />
-                                </scg:List>
-                              </uix:TargetAnchorable.Anchors>
-                            </uix:TargetAnchorable>
-                          </uix:NCheckState.Target>
-                        </uix:NCheckState>
-                      </PickBranch.Trigger>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Logged in successfully&quot;]" />
-                    </PickBranch>
-                    <PickBranch DisplayName="PickBranch page is not loading" sap:VirtualizedContainerService.HintSize="374,892" sap2010:WorkflowViewState.IdRef="PickBranch_6">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <PickBranch.Trigger>
-                        <uix:NCheckState DelayBefore="5" DisplayName="Check App State Acme is not loading" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,413.3333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_11" Mode="WaitDisappear" ScopeIdentifier="8bddc3b7-4296-4aa9-b938-b0dde8849d74" Version="V5">
-                          <uix:NCheckState.IfExists>
-                            <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_27">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </Sequence>
-                          </uix:NCheckState.IfExists>
-                          <uix:NCheckState.IfNotExists>
-                            <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_28">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </Sequence>
-                          </uix:NCheckState.IfNotExists>
-                          <uix:NCheckState.Target>
-                            <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/home" CVScreenId="1fbc56a1-3802-4a65-80cf-ce04cb465df9" ContentHash="U7rVyrm_w0az9sCHMrfFAA" CvTextArea="101, 146, 199, 24" CvTextArgument="ACME System 1" CvType="Text" DesignTimeRectangle="82, 122, 243, 75" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='A' visibleinnertext='ACME System 1' /&gt;" Guid="6641d39e-ff92-4d22-9754-945cca4d6fe0" InformativeScreenshot="92b9798aced27380ebac0a06d670dce9.png" Reference="OgJq5CcpbEqPf2GjETFlbw/FrkoOUaTK02-ibDLVRSmIg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                              <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                  <uix:Target DesignTimeRectangle="210, 900, 1500, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' visibleinnertext='Copyright © 202? ACME Systems' /&gt;" Guid="c28ee6c3-7fc8-49b7-a331-6d839a73002a" SearchSteps="Selector" />
-                                </scg:List>
-                              </uix:TargetAnchorable.Anchors>
-                            </uix:TargetAnchorable>
-                          </uix:NCheckState.Target>
-                        </uix:NCheckState>
-                      </PickBranch.Trigger>
-                      <Throw Exception="[New SystemException(&quot;The page is not loading&quot;)]" sap:VirtualizedContainerService.HintSize="452,92" sap2010:WorkflowViewState.IdRef="Throw_5" />
-                    </PickBranch>
-                  </Pick>
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="PickAfterlogin - Invoke Workflow File (PickAfterlogin.xaml)" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="PickAfterlogin.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <OutArgument x:TypeArguments="x:Boolean" x:Key="bol_ElementFound">[bol_ElementFound]</OutArgument>
+                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
                 </Sequence>
               </PickBranch>
-              <PickBranch DisplayName="PickBranch dashboard page" sap:VirtualizedContainerService.HintSize="374,2145.3333333333335" sap2010:WorkflowViewState.IdRef="PickBranch_2">
+              <PickBranch DisplayName="PickBranch dashboard page" sap:VirtualizedContainerService.HintSize="374,40" sap2010:WorkflowViewState.IdRef="PickBranch_2">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -568,7 +425,7 @@
                 </PickBranch.Trigger>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,147.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Already logged in&quot;]" />
               </PickBranch>
-              <PickBranch DisplayName="PickBranch page not loading" sap:VirtualizedContainerService.HintSize="374,2145.3333333333335" sap2010:WorkflowViewState.IdRef="PickBranch_3">
+              <PickBranch DisplayName="PickBranch page not loading" sap:VirtualizedContainerService.HintSize="374,40" sap2010:WorkflowViewState.IdRef="PickBranch_3">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -622,7 +479,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2419.3333333333335,48" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;LoginToAcme xaml ended&quot;]">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1284,48" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;LoginToAcme xaml ended&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
