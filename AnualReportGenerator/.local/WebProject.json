@@ -5,7 +5,7 @@
     "ProjectType": "Process",
     "Name": "AnualReportGenerator",
     "Description": "Robotic Enterprise Framework",
-    "LastModifiedTime": "2025-11-24T21:43:12.4818586Z",
+    "LastModifiedTime": "2025-11-25T07:58:26.0304242Z",
     "CreationTime": "2025-11-24T21:43:12.4818586Z",
     "UserId": "021a6714-c22d-4c56-80d7-cd6d0e481a11",
     "RootFolder": {
@@ -3979,6 +3979,11 @@
           "IsMain": true
         },
         {
+          "Id": "921554c6-731a-405e-bb8a-d4ac849c4b17",
+          "Name": "entry-points.json",
+          "IsMain": false
+        },
+        {
           "Id": "75575cf7-48da-45f6-96b3-7ac2c66db092",
           "Name": "README.md",
           "IsMain": false
@@ -4094,6 +4099,7 @@
     ".objects/FLge/.metadata": "oIpsUTrLLp8XWM3gBisv6qhgirl/lb\u002B9clkrb\u002BnAJ4A=",
     ".settings/Design/settings-afad0842.json": "0Ate4Ho3OtfOTaFZbep884JDtIPuwDlsbwEsOYkYJUg=",
     ".objects/b-JN/cGub/pRb0/BpPv/.data/ObjectRepositoryTargetData/.content": "4NB3rO8zd\u002BkPKnvUh2QXYllQMKOu6uFbR5srYqHQhS4=",
+    "entry-points.json": "/j9q4UFV\u002Be\u002Bl0LG7QSPKAmoqFJuOYlEMWArSZX1eH9g=",
     ".screenshots/99823decc8b9b25a0ade8d9d62d01ef8.png": "vcy73wFrdM5sKt2DxwWmEZolz97Ht9MiRx5l7pJ6Fbw=",
     ".objects/b-JN/cGub/-2M5/BqmN/.data/ObjectRepositoryTargetData/.content": "8T/v4ohmbUKODsc455PS4hIpVQmGi6IicvFNA3NAp4c=",
     ".storage/.runtime/DesignTimeTargetImagePersistenceService/8ce29640-da68-468a-8338-211573c954ae.png": "Qkkl87O\u002BeddTSEtczGY0QSRW5R51Rh\u002BZVCz\u002Bv2rc0bg=",
@@ -4275,7 +4281,7 @@
     ".screenshots/09b8e52a7ebc6ede1ecea7b3455c2a65.png": "67YzBQft8DRHLlTt8mnYndtbC1mAKT6HQ/TjiaxCcWc=",
     ".storage/.runtime/DesignTimeTargetImagePersistenceService/25b2776e-b1c7-44e6-8b90-263a11307353.png": "0/4z8SHLjAPN4T8cWlgKmzIMCmm68LbmqsB7tzZgp5s=",
     ".screenshots/32b31004720560b38e51d8e24a620290.png": "PdtcBUUFTaIt8ez09esG6UICj\u002BoKMTByb3lD8iyxgbg=",
-    "Main.xaml": "fNNE8lC9Ibrbw7Eedndqj68J1JUKYt7IOEDKlAW5F0U=",
+    "Main.xaml": "/BdfD/0ULeOpdApPhdzJdCbHhvH2qK7Ps9HNCSMFjH0=",
     "LICENSE": "QF5q7iYJhbMhpOgkg1Q0de32G3VHynkj9aatrMtUz58=",
     ".objects/b-JN/cGub/-2M5/aPYj/.type": "TltUjW1h8ABoQKyhBvdGSktZ5ahUMX1bV4YbhCOQG/Y=",
     "Main.xaml.json": "ddSH5d8H43S3BpoD50FmOFHBuQkj1WOk7CLi49HUaic=",
@@ -4421,7 +4427,7 @@
     ".objects/b-JN/cGub/34fy/pAdY/.metadata": "wy0W25Q4ad4uCcbXH0OKvVqlLxdLsk9sdlCuurtKjKI=",
     ".objects/V0Sy/zaMG/2K86/.metadata": "TorxjFyMB1GnyeY8RDZfwO9n9IkEKuo\u002BO9XcWWFC35U=",
     ".screenshots/7de2bbe3925511199f41466a6f93e827.png": "k6kS84Wifc\u002BLUMA6lV\u002Bo/xrotxH3VoDKoC40n\u002BjrzOk=",
-    "project.json": "It7XIssP0kYcg72Crv/\u002BY9DWTe0negUzNhWMSLA7KqA=",
+    "project.json": "Kpz\u002BJd\u002BoMOMhF5LpTO2Tf4YKzl\u002B5H3WtJpLf08Og/rU=",
     ".storage/.runtime/DesignTimeTargetImagePersistenceService/bc39ad99-dcb4-48f6-83b3-ffb3953addd3.png": "U9SLkiyroHKuvckgTFE667KXtrL\u002BQH2OuuNUjJFAlKs=",
     ".storage/.runtime/AncestryPersistenceService/fdf62682-2b4d-4466-ae0b-d844bd79ea85_e2c7c293-981a-490e-9e1b-f8d613e44e18": "WcUSNCKJfjuU5sbaFFLSN\u002BVrwx0yPpinZwlKv661ArE=",
     ".storage/.runtime/AncestryPersistenceService/629dcad2-712a-410b-af83-f9dc79d27644_b64f6649-908a-4ea9-8ab9-f3e14374fbf3": "rLeXGC/UVfDB/fc9zIgOremt5LxKnwJFRAaadnx/VjM=",
@@ -4831,6 +4837,7 @@
     ".objects/FLge/.metadata",
     ".settings/Design/settings-afad0842.json",
     ".objects/b-JN/cGub/pRb0/BpPv/.data/ObjectRepositoryTargetData/.content",
+    "entry-points.json",
     ".screenshots/99823decc8b9b25a0ade8d9d62d01ef8.png",
     ".objects/b-JN/cGub/-2M5/BqmN/.data/ObjectRepositoryTargetData/.content",
     ".storage/.runtime/DesignTimeTargetImagePersistenceService/8ce29640-da68-468a-8338-211573c954ae.png",
