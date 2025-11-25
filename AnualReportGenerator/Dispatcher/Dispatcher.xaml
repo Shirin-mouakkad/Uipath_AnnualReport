@@ -1,6 +1,5 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="Dispatcher" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uasa="clr-namespace:UiPath.Activities.System.Arrays;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="out_ExtractedData" Type="InArgument(sd:DataTable)" />
     <x:Property Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
   </x:Members>
   <VisualBasic.Settings>
@@ -114,7 +113,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This xaml navigate to work Items page then extract the data from the Work items table, filter it to just have the rows with WI4 as Type then upload the rows to the AnnualReport Queue with the WIID as reference number&#xA;Pre condition: &#xA;             we are logged in and in the dashboard page&#xA;Post condition: &#xA;              the items with WI4 Type are uploaded to the queue" DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="1042,1784" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This xaml navigate to work Items page then extract the data from the Work items table, filter it to just have the rows with WI4 as Type then upload the rows to the AnnualReport Queue with the WIID as reference number&#xA;Pre condition: &#xA;             we are logged in and in the dashboard page&#xA;Post condition: &#xA;              the items with WI4 Type are uploaded to the queue" DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="698,1784" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(x:String)" Default="[new List(of String)]" Name="lst_NotUploadedItem" />
       <Variable x:TypeArguments="x:Boolean" Name="bol_Load" />

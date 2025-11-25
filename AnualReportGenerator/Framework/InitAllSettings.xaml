@@ -322,6 +322,9 @@
                       </ActivityAction>
                     </Catch>
                   </TryCatch.Catches>
+                  <TryCatch.Finally>
+                    <Sequence DisplayName="Finally" sap2010:WorkflowViewState.IdRef="Sequence_29" />
+                  </TryCatch.Finally>
                 </TryCatch>
               </ActivityAction>
             </ui:ForEachRow.Body>
